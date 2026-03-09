@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:wp="http://wordpress.org/export/1.2/"
+>
+<channel>
+	<title>Liza Demo</title>
+	<link>http://liza.local</link>
+	<wp:wxr_version>1.2</wp:wxr_version>
+	<wp:base_site_url>http://liza.local</wp:base_site_url>
+	<wp:base_blog_url>http://liza.local</wp:base_blog_url>
+
+	<!-- Categories -->
+	<wp:category>
+		<wp:term_id>1</wp:term_id>
+		<wp:category_nicename>lifestyle</wp:category_nicename>
+		<wp:category_parent></wp:category_parent>
+		<wp:cat_name><![CDATA[Lifestyle]]></wp:cat_name>
+	</wp:category>
+
+	<wp:category>
+		<wp:term_id>2</wp:term_id>
+		<wp:category_nicename>travel</wp:category_nicename>
+		<wp:category_parent></wp:category_parent>
+		<wp:cat_name><![CDATA[Travel]]></wp:cat_name>
+	</wp:category>
+
+	<wp:category>
+		<wp:term_id>3</wp:term_id>
+		<wp:category_nicename>food</wp:category_nicename>
+		<wp:category_parent></wp:category_parent>
+		<wp:cat_name><![CDATA[Food]]></wp:cat_name>
+	</wp:category>
+
+	<wp:category>
+		<wp:term_id>4</wp:term_id>
+		<wp:category_nicename>fashion</wp:category_nicename>
+		<wp:category_parent></wp:category_parent>
+		<wp:cat_name><![CDATA[Fashion]]></wp:cat_name>
+	</wp:category>
+
+	<!-- Nav Menus -->
+	<wp:term>
+		<wp:term_id>10</wp:term_id>
+		<wp:term_taxonomy>nav_menu</wp:term_taxonomy>
+		<wp:term_slug>main-menu</wp:term_slug>
+		<wp:term_name><![CDATA[Main Menu]]></wp:term_name>
+	</wp:term>
+
+	<wp:term>
+		<wp:term_id>11</wp:term_id>
+		<wp:term_taxonomy>nav_menu</wp:term_taxonomy>
+		<wp:term_slug>top-menu</wp:term_slug>
+		<wp:term_name><![CDATA[Top Menu]]></wp:term_name>
+	</wp:term>
+
+	<!-- Home Page -->
+	<item>
+		<title>Home</title>
+		<link>http://liza.local/home/</link>
+		<pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<wp:post_date><![CDATA[2024-01-01 00:00:00]]></wp:post_date>
+		<wp:post_status><![CDATA[publish]]></wp:post_status>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_name><![CDATA[home]]></wp:post_name>
+	</item>
+
+	<!-- Sample Page -->
+	<item>
+		<title>About</title>
+		<link>http://liza.local/about/</link>
+		<pubDate>Mon, 01 Jan 2024 00:00:01 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<content:encoded><![CDATA[<p>Welcome to Liza — a beautiful and minimal blog theme. Write your story here.</p>]]></content:encoded>
+		<wp:post_date><![CDATA[2024-01-01 00:00:01]]></wp:post_date>
+		<wp:post_status><![CDATA[publish]]></wp:post_status>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_name><![CDATA[about]]></wp:post_name>
+	</item>
+
+	<!-- Demo Posts -->
+	<item>
+		<title>Welcome to Liza — A Minimal Blog Theme</title>
+		<link>http://liza.local/welcome-to-liza/</link>
+		<pubDate>Mon, 01 Jan 2024 10:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<category domain="category" nicename="lifestyle"><![CDATA[Lifestyle]]></category>
+		<content:encoded><![CDATA[<p>This is a demo post for the Liza theme. Liza is a clean, minimal, and elegant blog theme designed for creative writers, photographers, and bloggers.</p><p>Customize colors, fonts, and layouts from Appearance → Customize.</p>]]></content:encoded>
+		<excerpt:encoded><![CDATA[This is a demo post for the Liza theme — clean, minimal, and elegant.]]></excerpt:encoded>
+		<wp:post_date><![CDATA[2024-01-01 10:00:00]]></wp:post_date>
+		<wp:post_status><![CDATA[publish]]></wp:post_status>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_name><![CDATA[welcome-to-liza]]></wp:post_name>
+	</item>
+
+	<item>
+		<title>Top 10 Travel Destinations for 2024</title>
+		<link>http://liza.local/travel-destinations-2024/</link>
+		<pubDate>Tue, 02 Jan 2024 10:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<category domain="category" nicename="travel"><![CDATA[Travel]]></category>
+		<content:encoded><![CDATA[<p>Discover the most breathtaking travel destinations for this year. From the snowy streets of New York to the sunny coasts of Greece, the world awaits your adventure.</p>]]></content:encoded>
+		<excerpt:encoded><![CDATA[Discover the most breathtaking travel destinations for this year.]]></excerpt:encoded>
+		<wp:post_date><![CDATA[2024-01-02 10:00:00]]></wp:post_date>
+		<wp:post_status><![CDATA[publish]]></wp:post_status>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_name><![CDATA[travel-destinations-2024]]></wp:post_name>
+	</item>
+
+	<item>
+		<title>Easy Homemade Recipes for Busy Weekdays</title>
+		<link>http://liza.local/easy-recipes/</link>
+		<pubDate>Wed, 03 Jan 2024 10:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<category domain="category" nicename="food"><![CDATA[Food]]></category>
+		<content:encoded><![CDATA[<p>Quick and delicious recipes that anyone can make at home. From 15-minute pasta dishes to simple salads, these recipes will make your weekdays easier and tastier.</p>]]></content:encoded>
+		<excerpt:encoded><![CDATA[Quick and delicious recipes that anyone can make at home.]]></excerpt:encoded>
+		<wp:post_date><![CDATA[2024-01-03 10:00:00]]></wp:post_date>
+		<wp:post_status><![CDATA[publish]]></wp:post_status>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_name><![CDATA[easy-recipes]]></wp:post_name>
+	</item>
+
+	<item>
+		<title>Spring Fashion Trends You Need to Know</title>
+		<link>http://liza.local/spring-fashion-trends/</link>
+		<pubDate>Thu, 04 Jan 2024 10:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<category domain="category" nicename="fashion"><![CDATA[Fashion]]></category>
+		<content:encoded><![CDATA[<p>The latest spring fashion trends are here! From pastel colors to bold prints, this season is all about expressing your personality through style.</p>]]></content:encoded>
+		<excerpt:encoded><![CDATA[The latest spring fashion trends are here! From pastel colors to bold prints.]]></excerpt:encoded>
+		<wp:post_date><![CDATA[2024-01-04 10:00:00]]></wp:post_date>
+		<wp:post_status><![CDATA[publish]]></wp:post_status>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_name><![CDATA[spring-fashion-trends]]></wp:post_name>
+	</item>
+
+	<item>
+		<title>Morning Routines That Will Change Your Life</title>
+		<link>http://liza.local/morning-routines/</link>
+		<pubDate>Fri, 05 Jan 2024 10:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<category domain="category" nicename="lifestyle"><![CDATA[Lifestyle]]></category>
+		<content:encoded><![CDATA[<p>Start your day the right way with these proven morning routines. A consistent morning routine can boost your productivity, improve your mood, and set a positive tone for the entire day.</p>]]></content:encoded>
+		<excerpt:encoded><![CDATA[Start your day the right way with these proven morning routines.]]></excerpt:encoded>
+		<wp:post_date><![CDATA[2024-01-05 10:00:00]]></wp:post_date>
+		<wp:post_status><![CDATA[publish]]></wp:post_status>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_name><![CDATA[morning-routines]]></wp:post_name>
+	</item>
+
+	<!-- Main Menu Items -->
+	<item>
+		<title>Home</title>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_status><![CDATA[publish]]></wp:post_status>
+		<wp:menu_item_url><![CDATA[http://liza.local/]]></wp:menu_item_url>
+		<category domain="nav_menu" nicename="main-menu"><![CDATA[Main Menu]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+	<item>
+		<title>About</title>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_status><![CDATA[publish]]></wp:post_status>
+		<wp:menu_item_url><![CDATA[http://liza.local/about/]]></wp:menu_item_url>
+		<category domain="nav_menu" nicename="main-menu"><![CDATA[Main Menu]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+</channel>
+</rss>
