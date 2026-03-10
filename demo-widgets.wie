@@ -1,1 +1,79 @@
-[{"sidebar_id":"sidebar-right","widgets":[{"id_base":"search","instance":{"encoded_serialized_instance":"a:1:{s:5:\"title\";s:6:\"Search\";}","title":"Search","is_widget_customizer_js_value":true,"instance_hash_key":""}},{"id_base":"recent-posts","instance":{"encoded_serialized_instance":"a:2:{s:5:\"title\";s:12:\"Recent Posts\";s:6:\"number\";i:5;}","title":"Recent Posts","is_widget_customizer_js_value":true,"instance_hash_key":""}},{"id_base":"categories","instance":{"encoded_serialized_instance":"a:4:{s:5:\"title\";s:10:\"Categories\";s:5:\"count\";i:0;s:12:\"hierarchical\";i:0;s:8:\"dropdown\";i:0;}","title":"Categories","is_widget_customizer_js_value":true,"instance_hash_key":""}}]},{"sidebar_id":"sidebar-alt","widgets":[{"id_base":"search","instance":{"encoded_serialized_instance":"a:1:{s:5:\"title\";s:6:\"Search\";}","title":"Search","is_widget_customizer_js_value":true,"instance_hash_key":""}},{"id_base":"recent-posts","instance":{"encoded_serialized_instance":"a:2:{s:5:\"title\";s:12:\"Recent Posts\";s:6:\"number\";i:5;}","title":"Recent Posts","is_widget_customizer_js_value":true,"instance_hash_key":""}}]},{"sidebar_id":"footer-widgets","widgets":[{"id_base":"text","instance":{"encoded_serialized_instance":"a:2:{s:5:\"title\";s:10:\"About Liza\";s:4:\"text\";s:87:\"Liza is a clean and minimal blog theme for creative writers and bloggers.\";}","title":"About Liza","is_widget_customizer_js_value":true,"instance_hash_key":""}},{"id_base":"recent-posts","instance":{"encoded_serialized_instance":"a:2:{s:5:\"title\";s:12:\"Recent Posts\";s:6:\"number\";i:4;}","title":"Recent Posts","is_widget_customizer_js_value":true,"instance_hash_key":""}},{"id_base":"categories","instance":{"encoded_serialized_instance":"a:4:{s:5:\"title\";s:10:\"Categories\";s:5:\"count\";i:1;s:12:\"hierarchical\";i:0;s:8:\"dropdown\";i:0;}","title":"Categories","is_widget_customizer_js_value":true,"instance_hash_key":""}}]}]
+[
+  {
+    "sidebar_id": "sidebar-right",
+    "widgets": [
+      {
+        "id_base": "search",
+        "instance": {
+          "title": ""
+        }
+      },
+      {
+        "id_base": "recent-posts",
+        "instance": {
+          "title": "Recent Posts",
+          "number": 5,
+          "show_date": false
+        }
+      },
+      {
+        "id_base": "categories",
+        "instance": {
+          "title": "Categories",
+          "count": 0,
+          "hierarchical": 0,
+          "dropdown": 0
+        }
+      }
+    ]
+  },
+  {
+    "sidebar_id": "sidebar-alt",
+    "widgets": [
+      {
+        "id_base": "search",
+        "instance": {
+          "title": ""
+        }
+      },
+      {
+        "id_base": "recent-posts",
+        "instance": {
+          "title": "Recent Posts",
+          "number": 5,
+          "show_date": false
+        }
+      }
+    ]
+  },
+  {
+    "sidebar_id": "footer-widgets",
+    "widgets": [
+      {
+        "id_base": "text",
+        "instance": {
+          "title": "About Liza",
+          "text": "Liza is a clean and minimal blog theme for creative writers and bloggers.",
+          "filter": false
+        }
+      },
+      {
+        "id_base": "recent-posts",
+        "instance": {
+          "title": "Recent Posts",
+          "number": 4,
+          "show_date": true
+        }
+      },
+      {
+        "id_base": "categories",
+        "instance": {
+          "title": "Categories",
+          "count": 1,
+          "hierarchical": 0,
+          "dropdown": 0
+        }
+      }
+    ]
+  }
+]
