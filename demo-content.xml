@@ -13,179 +13,74 @@
 	<wp:base_site_url>http://liza.local</wp:base_site_url>
 	<wp:base_blog_url>http://liza.local</wp:base_blog_url>
 
-	<!-- Categories -->
-	<wp:category>
-		<wp:term_id>1</wp:term_id>
-		<wp:category_nicename>lifestyle</wp:category_nicename>
-		<wp:category_parent></wp:category_parent>
-		<wp:cat_name><![CDATA[Lifestyle]]></wp:cat_name>
-	</wp:category>
+	<wp:category><wp:term_id>1</wp:term_id><wp:category_nicename>lifestyle</wp:category_nicename><wp:category_parent></wp:category_parent><wp:cat_name><![CDATA[Lifestyle]]></wp:cat_name></wp:category>
+	<wp:category><wp:term_id>2</wp:term_id><wp:category_nicename>travel</wp:category_nicename><wp:category_parent></wp:category_parent><wp:cat_name><![CDATA[Travel]]></wp:cat_name></wp:category>
+	<wp:category><wp:term_id>3</wp:term_id><wp:category_nicename>food</wp:category_nicename><wp:category_parent></wp:category_parent><wp:cat_name><![CDATA[Food]]></wp:cat_name></wp:category>
+	<wp:category><wp:term_id>4</wp:term_id><wp:category_nicename>fashion</wp:category_nicename><wp:category_parent></wp:category_parent><wp:cat_name><![CDATA[Fashion]]></wp:cat_name></wp:category>
+	<wp:category><wp:term_id>5</wp:term_id><wp:category_nicename>wellness</wp:category_nicename><wp:category_parent>lifestyle</wp:category_parent><wp:cat_name><![CDATA[Wellness]]></wp:cat_name></wp:category>
+	<wp:category><wp:term_id>6</wp:term_id><wp:category_nicename>home-decor</wp:category_nicename><wp:category_parent>lifestyle</wp:category_parent><wp:cat_name><![CDATA[Home Decor]]></wp:cat_name></wp:category>
 
-	<wp:category>
-		<wp:term_id>2</wp:term_id>
-		<wp:category_nicename>travel</wp:category_nicename>
-		<wp:category_parent></wp:category_parent>
-		<wp:cat_name><![CDATA[Travel]]></wp:cat_name>
-	</wp:category>
+	<wp:term><wp:term_id>10</wp:term_id><wp:term_taxonomy>nav_menu</wp:term_taxonomy><wp:term_slug>main-menu</wp:term_slug><wp:term_name><![CDATA[Main Menu]]></wp:term_name></wp:term>
+	<wp:term><wp:term_id>11</wp:term_id><wp:term_taxonomy>nav_menu</wp:term_taxonomy><wp:term_slug>top-menu</wp:term_slug><wp:term_name><![CDATA[Top Menu]]></wp:term_name></wp:term>
 
-	<wp:category>
-		<wp:term_id>3</wp:term_id>
-		<wp:category_nicename>food</wp:category_nicename>
-		<wp:category_parent></wp:category_parent>
-		<wp:cat_name><![CDATA[Food]]></wp:cat_name>
-	</wp:category>
+	<!-- PAGES -->
+	<item><title>Home</title><link>http://liza.local/home/</link><pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate><dc:creator><![CDATA[admin]]></dc:creator><content:encoded><![CDATA[]]></content:encoded><wp:post_id>100</wp:post_id><wp:post_date><![CDATA[2024-01-01 00:00:00]]></wp:post_date><wp:post_status><![CDATA[publish]]></wp:post_status><wp:post_type><![CDATA[page]]></wp:post_type><wp:post_name><![CDATA[home]]></wp:post_name></item>
 
-	<wp:category>
-		<wp:term_id>4</wp:term_id>
-		<wp:category_nicename>fashion</wp:category_nicename>
-		<wp:category_parent></wp:category_parent>
-		<wp:cat_name><![CDATA[Fashion]]></wp:cat_name>
-	</wp:category>
+	<item><title>About</title><link>http://liza.local/about/</link><pubDate>Mon, 01 Jan 2024 00:00:01 +0000</pubDate><dc:creator><![CDATA[admin]]></dc:creator><content:encoded><![CDATA[<p>Hi, I'm Liza! Welcome to my blog — a place where I share my thoughts on lifestyle, travel, food and fashion. I believe in living beautifully and finding joy in the everyday moments.</p><p>This blog is my little corner of the internet where creativity meets simplicity. Whether you're here for recipe inspiration, travel tips, or just a dose of positivity — I'm glad you stopped by!</p>]]></content:encoded><excerpt:encoded><![CDATA[Hi, I'm Liza! Welcome to my blog.]]></excerpt:encoded><wp:post_id>101</wp:post_id><wp:post_date><![CDATA[2024-01-01 00:00:01]]></wp:post_date><wp:post_status><![CDATA[publish]]></wp:post_status><wp:post_type><![CDATA[page]]></wp:post_type><wp:post_name><![CDATA[about]]></wp:post_name></item>
 
-	<!-- Nav Menus -->
-	<wp:term>
-		<wp:term_id>10</wp:term_id>
-		<wp:term_taxonomy>nav_menu</wp:term_taxonomy>
-		<wp:term_slug>main-menu</wp:term_slug>
-		<wp:term_name><![CDATA[Main Menu]]></wp:term_name>
-	</wp:term>
+	<item><title>Contact</title><link>http://liza.local/contact/</link><pubDate>Mon, 01 Jan 2024 00:00:02 +0000</pubDate><dc:creator><![CDATA[admin]]></dc:creator><content:encoded><![CDATA[<p>Have a question or a collaboration idea? I'd love to hear from you!</p><p>Email: <strong>hello@lizablog.com</strong></p>]]></content:encoded><wp:post_id>102</wp:post_id><wp:post_date><![CDATA[2024-01-01 00:00:02]]></wp:post_date><wp:post_status><![CDATA[publish]]></wp:post_status><wp:post_type><![CDATA[page]]></wp:post_type><wp:post_name><![CDATA[contact]]></wp:post_name></item>
 
-	<wp:term>
-		<wp:term_id>11</wp:term_id>
-		<wp:term_taxonomy>nav_menu</wp:term_taxonomy>
-		<wp:term_slug>top-menu</wp:term_slug>
-		<wp:term_name><![CDATA[Top Menu]]></wp:term_name>
-	</wp:term>
+	<!-- LIFESTYLE POSTS -->
+	<item><title>10 Morning Habits That Will Transform Your Day</title><link>http://liza.local/morning-habits/</link><pubDate>Mon, 15 Jan 2024 09:00:00 +0000</pubDate><dc:creator><![CDATA[admin]]></dc:creator><category domain="category" nicename="lifestyle"><![CDATA[Lifestyle]]></category><category domain="category" nicename="wellness"><![CDATA[Wellness]]></category><content:encoded><![CDATA[<p>How you start your morning sets the tone for your entire day. Over the years I've experimented with dozens of routines — and these 10 habits have made the biggest difference in my energy, focus and overall happiness.</p><h2>1. Wake Up Without Your Phone</h2><p>Give yourself at least 30 minutes before checking social media or emails. Use this time to ease into the day with intention rather than reaction.</p><h2>2. Hydrate First Thing</h2><p>Drink a large glass of water before anything else. After 7–8 hours of sleep your body is dehydrated — rehydrating kickstarts your metabolism and clears mental fog.</p><h2>3. Move Your Body</h2><p>Even 10 minutes of stretching, yoga, or a short walk outside makes a remarkable difference.</p><h2>4. Journal for 5 Minutes</h2><p>Write down three things you're grateful for and one intention for the day.</p><h2>5. Eat a Nourishing Breakfast</h2><p>Skip the sugary cereals. Opt for protein, healthy fats and complex carbs to keep your energy stable all morning.</p>]]></content:encoded><excerpt:encoded><![CDATA[How you start your morning sets the tone for your entire day. These 10 habits have made the biggest difference in my energy and focus.]]></excerpt:encoded><wp:post_id>201</wp:post_id><wp:post_date><![CDATA[2024-01-15 09:00:00]]></wp:post_date><wp:post_status><![CDATA[publish]]></wp:post_status><wp:post_type><![CDATA[post]]></wp:post_type><wp:post_name><![CDATA[morning-habits]]></wp:post_name></item>
 
-	<!-- Home Page -->
-	<item>
-		<title>Home</title>
-		<link>http://liza.local/home/</link>
-		<pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<wp:post_date><![CDATA[2024-01-01 00:00:00]]></wp:post_date>
-		<wp:post_status><![CDATA[publish]]></wp:post_status>
-		<wp:post_type><![CDATA[page]]></wp:post_type>
-		<wp:post_name><![CDATA[home]]></wp:post_name>
-	</item>
+	<item><title>How to Create a Cozy Home You'll Never Want to Leave</title><link>http://liza.local/cozy-home/</link><pubDate>Tue, 23 Jan 2024 09:00:00 +0000</pubDate><dc:creator><![CDATA[admin]]></dc:creator><category domain="category" nicename="lifestyle"><![CDATA[Lifestyle]]></category><category domain="category" nicename="home-decor"><![CDATA[Home Decor]]></category><content:encoded><![CDATA[<p>Creating a cozy, comfortable home isn't about expensive furniture — it's about atmosphere, warmth and the little details that make a space feel truly yours.</p><h2>Start With Lighting</h2><p>Harsh overhead lighting is the enemy of cozy. Layer your lighting with floor lamps, table lamps and candles. Warm-toned bulbs instantly make any room feel more inviting.</p><h2>Add Texture</h2><p>Pile on the throws, cushions and rugs. Mixing textures adds visual warmth and makes a space feel lived-in and loved.</p><h2>Bring in Nature</h2><p>Plants, fresh flowers, dried botanicals — natural elements ground a space and add life.</p>]]></content:encoded><excerpt:encoded><![CDATA[Creating a cozy home isn't about expensive furniture — it's about atmosphere, warmth and the little details that make a space feel truly yours.]]></excerpt:encoded><wp:post_id>202</wp:post_id><wp:post_date><![CDATA[2024-01-23 09:00:00]]></wp:post_date><wp:post_status><![CDATA[publish]]></wp:post_status><wp:post_type><![CDATA[post]]></wp:post_type><wp:post_name><![CDATA[cozy-home]]></wp:post_name></item>
 
-	<!-- Sample Page -->
-	<item>
-		<title>About</title>
-		<link>http://liza.local/about/</link>
-		<pubDate>Mon, 01 Jan 2024 00:00:01 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<content:encoded><![CDATA[<p>Welcome to Liza — a beautiful and minimal blog theme. Write your story here.</p>]]></content:encoded>
-		<wp:post_date><![CDATA[2024-01-01 00:00:01]]></wp:post_date>
-		<wp:post_status><![CDATA[publish]]></wp:post_status>
-		<wp:post_type><![CDATA[page]]></wp:post_type>
-		<wp:post_name><![CDATA[about]]></wp:post_name>
-	</item>
+	<item><title>A Simple Guide to Digital Detox</title><link>http://liza.local/digital-detox/</link><pubDate>Wed, 07 Feb 2024 09:00:00 +0000</pubDate><dc:creator><![CDATA[admin]]></dc:creator><category domain="category" nicename="lifestyle"><![CDATA[Lifestyle]]></category><category domain="category" nicename="wellness"><![CDATA[Wellness]]></category><content:encoded><![CDATA[<p>A digital detox doesn't mean quitting technology forever. It means being intentional about how and when you use it.</p><h2>Signs You Need a Digital Detox</h2><p>You reach for your phone first thing in the morning. You feel anxious when you don't have it nearby. You scroll mindlessly without really enjoying it.</p><h2>How to Start</h2><p>Start small. Designate phone-free times — during meals, the first hour after waking, and the last hour before bed.</p>]]></content:encoded><excerpt:encoded><![CDATA[A digital detox doesn't mean quitting technology forever. It means being intentional about how and when you use it.]]></excerpt:encoded><wp:post_id>203</wp:post_id><wp:post_date><![CDATA[2024-02-07 09:00:00]]></wp:post_date><wp:post_status><![CDATA[publish]]></wp:post_status><wp:post_type><![CDATA[post]]></wp:post_type><wp:post_name><![CDATA[digital-detox]]></wp:post_name></item>
 
-	<!-- Demo Posts -->
-	<item>
-		<title>Welcome to Liza — A Minimal Blog Theme</title>
-		<link>http://liza.local/welcome-to-liza/</link>
-		<pubDate>Mon, 01 Jan 2024 10:00:00 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<category domain="category" nicename="lifestyle"><![CDATA[Lifestyle]]></category>
-		<content:encoded><![CDATA[<p>This is a demo post for the Liza theme. Liza is a clean, minimal, and elegant blog theme designed for creative writers, photographers, and bloggers.</p><p>Customize colors, fonts, and layouts from Appearance → Customize.</p>]]></content:encoded>
-		<excerpt:encoded><![CDATA[This is a demo post for the Liza theme — clean, minimal, and elegant.]]></excerpt:encoded>
-		<wp:post_date><![CDATA[2024-01-01 10:00:00]]></wp:post_date>
-		<wp:post_status><![CDATA[publish]]></wp:post_status>
-		<wp:post_type><![CDATA[post]]></wp:post_type>
-		<wp:post_name><![CDATA[welcome-to-liza]]></wp:post_name>
-	</item>
+	<!-- TRAVEL POSTS -->
+	<item><title>A Weekend in Tbilisi — The City That Stole My Heart</title><link>http://liza.local/weekend-in-tbilisi/</link><pubDate>Fri, 19 Jan 2024 09:00:00 +0000</pubDate><dc:creator><![CDATA[admin]]></dc:creator><category domain="category" nicename="travel"><![CDATA[Travel]]></category><content:encoded><![CDATA[<p>Tbilisi is one of those cities that sneaks up on you. You arrive expecting a few days of sightseeing and leave completely enchanted — planning your return before you've even unpacked.</p><h2>Old Town — Kala</h2><p>Start in the old town, where narrow cobblestone streets wind between colorful wooden balconies draped in grapevines. Every corner reveals a hidden courtyard, a crumbling church, or a tiny wine bar.</p><h2>The Sulfur Baths of Abanotubani</h2><p>Soak in private bathhouses fed by natural hot springs. Don't skip the traditional kisi scrub.</p><h2>Wine, Bread and Cheese</h2><p>Eat khachapuri for breakfast, try churchkhela as a snack, and drink natural wine poured from a clay qvevri jug.</p>]]></content:encoded><excerpt:encoded><![CDATA[Tbilisi is one of those cities that sneaks up on you. You arrive expecting a few days and leave completely enchanted.]]></excerpt:encoded><wp:post_id>301</wp:post_id><wp:post_date><![CDATA[2024-01-19 09:00:00]]></wp:post_date><wp:post_status><![CDATA[publish]]></wp:post_status><wp:post_type><![CDATA[post]]></wp:post_type><wp:post_name><![CDATA[weekend-in-tbilisi]]></wp:post_name></item>
 
-	<item>
-		<title>Top 10 Travel Destinations for 2024</title>
-		<link>http://liza.local/travel-destinations-2024/</link>
-		<pubDate>Tue, 02 Jan 2024 10:00:00 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<category domain="category" nicename="travel"><![CDATA[Travel]]></category>
-		<content:encoded><![CDATA[<p>Discover the most breathtaking travel destinations for this year. From the snowy streets of New York to the sunny coasts of Greece, the world awaits your adventure.</p>]]></content:encoded>
-		<excerpt:encoded><![CDATA[Discover the most breathtaking travel destinations for this year.]]></excerpt:encoded>
-		<wp:post_date><![CDATA[2024-01-02 10:00:00]]></wp:post_date>
-		<wp:post_status><![CDATA[publish]]></wp:post_status>
-		<wp:post_type><![CDATA[post]]></wp:post_type>
-		<wp:post_name><![CDATA[travel-destinations-2024]]></wp:post_name>
-	</item>
+	<item><title>How to Travel Slow — And Why It Changed Everything</title><link>http://liza.local/slow-travel/</link><pubDate>Thu, 01 Feb 2024 09:00:00 +0000</pubDate><dc:creator><![CDATA[admin]]></dc:creator><category domain="category" nicename="travel"><![CDATA[Travel]]></category><content:encoded><![CDATA[<p>I used to think travel meant fitting as many countries as possible into the shortest amount of time. Then I tried slow travel — staying in one place for weeks at a time — and it completely changed the way I see the world.</p><h2>What Is Slow Travel?</h2><p>Slow travel is about depth over breadth. Instead of racing through a highlight reel of cities, you settle into one place long enough to find your favourite coffee shop and feel like a local.</p><h2>The Benefits</h2><p>Lower costs, less travel stress, deeper cultural immersion, and the unexpected joy of routine in a foreign place.</p>]]></content:encoded><excerpt:encoded><![CDATA[Slow travel changed the way I see the world — staying in one place long enough to find your favourite coffee shop and feel like a local.]]></excerpt:encoded><wp:post_id>302</wp:post_id><wp:post_date><![CDATA[2024-02-01 09:00:00]]></wp:post_date><wp:post_status><![CDATA[publish]]></wp:post_status><wp:post_type><![CDATA[post]]></wp:post_type><wp:post_name><![CDATA[slow-travel]]></wp:post_name></item>
 
-	<item>
-		<title>Easy Homemade Recipes for Busy Weekdays</title>
-		<link>http://liza.local/easy-recipes/</link>
-		<pubDate>Wed, 03 Jan 2024 10:00:00 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<category domain="category" nicename="food"><![CDATA[Food]]></category>
-		<content:encoded><![CDATA[<p>Quick and delicious recipes that anyone can make at home. From 15-minute pasta dishes to simple salads, these recipes will make your weekdays easier and tastier.</p>]]></content:encoded>
-		<excerpt:encoded><![CDATA[Quick and delicious recipes that anyone can make at home.]]></excerpt:encoded>
-		<wp:post_date><![CDATA[2024-01-03 10:00:00]]></wp:post_date>
-		<wp:post_status><![CDATA[publish]]></wp:post_status>
-		<wp:post_type><![CDATA[post]]></wp:post_type>
-		<wp:post_name><![CDATA[easy-recipes]]></wp:post_name>
-	</item>
+	<item><title>The Ultimate Minimalist Packing List</title><link>http://liza.local/minimalist-packing/</link><pubDate>Mon, 12 Feb 2024 09:00:00 +0000</pubDate><dc:creator><![CDATA[admin]]></dc:creator><category domain="category" nicename="travel"><![CDATA[Travel]]></category><content:encoded><![CDATA[<p>I've traveled with a single carry-on bag for the past three years. No checked luggage fees, no waiting at carousels, no dragging a heavy suitcase over cobblestones.</p><h2>Clothing (7 items)</h2><p>The key is a neutral color palette — everything mixes and matches. Two pairs of trousers, three tops, one light jacket, and one versatile dress.</p><h2>Shoes (2 pairs)</h2><p>One comfortable walking shoe and one pair of sandals. That's it.</p><h2>Toiletries</h2><p>Solid shampoo bars save space. Decant skincare into small reusable bottles. Leave the hair dryer — use the hotel's.</p>]]></content:encoded><excerpt:encoded><![CDATA[I've traveled with a single carry-on bag for three years. No checked luggage fees, no carousel waiting. Here's exactly what I bring.]]></excerpt:encoded><wp:post_id>303</wp:post_id><wp:post_date><![CDATA[2024-02-12 09:00:00]]></wp:post_date><wp:post_status><![CDATA[publish]]></wp:post_status><wp:post_type><![CDATA[post]]></wp:post_type><wp:post_name><![CDATA[minimalist-packing]]></wp:post_name></item>
 
-	<item>
-		<title>Spring Fashion Trends You Need to Know</title>
-		<link>http://liza.local/spring-fashion-trends/</link>
-		<pubDate>Thu, 04 Jan 2024 10:00:00 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<category domain="category" nicename="fashion"><![CDATA[Fashion]]></category>
-		<content:encoded><![CDATA[<p>The latest spring fashion trends are here! From pastel colors to bold prints, this season is all about expressing your personality through style.</p>]]></content:encoded>
-		<excerpt:encoded><![CDATA[The latest spring fashion trends are here! From pastel colors to bold prints.]]></excerpt:encoded>
-		<wp:post_date><![CDATA[2024-01-04 10:00:00]]></wp:post_date>
-		<wp:post_status><![CDATA[publish]]></wp:post_status>
-		<wp:post_type><![CDATA[post]]></wp:post_type>
-		<wp:post_name><![CDATA[spring-fashion-trends]]></wp:post_name>
-	</item>
+	<!-- FOOD POSTS -->
+	<item><title>One-Pan Lemon Herb Pasta — Ready in 20 Minutes</title><link>http://liza.local/lemon-herb-pasta/</link><pubDate>Sun, 21 Jan 2024 09:00:00 +0000</pubDate><dc:creator><![CDATA[admin]]></dc:creator><category domain="category" nicename="food"><![CDATA[Food]]></category><content:encoded><![CDATA[<p>This is my go-to weeknight recipe when I'm tired but still want something that feels like a proper meal. One pan, 20 minutes, minimal washing up.</p><h2>Ingredients (serves 2)</h2><ul><li>200g spaghetti</li><li>3 cloves garlic, sliced</li><li>Zest and juice of 1 lemon</li><li>Large handful of fresh parsley</li><li>4 tbsp olive oil</li><li>50g parmesan, grated</li></ul><h2>Method</h2><p>Cook pasta in salted water. Reserve a cup of pasta water. Fry garlic in olive oil until golden. Add drained pasta, lemon zest, juice and a splash of pasta water. Toss well. Add parmesan and herbs, season and serve.</p>]]></content:encoded><excerpt:encoded><![CDATA[One pan, 20 minutes, minimal washing up. This lemon herb pasta tastes far more impressive than the effort involved.]]></excerpt:encoded><wp:post_id>401</wp:post_id><wp:post_date><![CDATA[2024-01-21 09:00:00]]></wp:post_date><wp:post_status><![CDATA[publish]]></wp:post_status><wp:post_type><![CDATA[post]]></wp:post_type><wp:post_name><![CDATA[lemon-herb-pasta]]></wp:post_name></item>
 
-	<item>
-		<title>Morning Routines That Will Change Your Life</title>
-		<link>http://liza.local/morning-routines/</link>
-		<pubDate>Fri, 05 Jan 2024 10:00:00 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<category domain="category" nicename="lifestyle"><![CDATA[Lifestyle]]></category>
-		<content:encoded><![CDATA[<p>Start your day the right way with these proven morning routines. A consistent morning routine can boost your productivity, improve your mood, and set a positive tone for the entire day.</p>]]></content:encoded>
-		<excerpt:encoded><![CDATA[Start your day the right way with these proven morning routines.]]></excerpt:encoded>
-		<wp:post_date><![CDATA[2024-01-05 10:00:00]]></wp:post_date>
-		<wp:post_status><![CDATA[publish]]></wp:post_status>
-		<wp:post_type><![CDATA[post]]></wp:post_type>
-		<wp:post_name><![CDATA[morning-routines]]></wp:post_name>
-	</item>
+	<item><title>My Favourite Everyday Smoothie Bowl</title><link>http://liza.local/smoothie-bowl/</link><pubDate>Sat, 03 Feb 2024 09:00:00 +0000</pubDate><dc:creator><![CDATA[admin]]></dc:creator><category domain="category" nicename="food"><![CDATA[Food]]></category><content:encoded><![CDATA[<p>I've been making some version of this smoothie bowl almost every morning for two years. It's nourishing, beautiful, and takes less than five minutes.</p><h2>The Base</h2><p>Blend 1 frozen banana, a large handful of frozen mixed berries, 2 tablespoons of Greek yogurt and a splash of oat milk until thick and creamy.</p><h2>Toppings</h2><p>Granola for crunch, fresh fruit, a drizzle of honey, chia seeds, and fresh mint leaves.</p>]]></content:encoded><excerpt:encoded><![CDATA[I've been making this smoothie bowl almost every morning for two years. Nourishing, beautiful, and ready in five minutes.]]></excerpt:encoded><wp:post_id>402</wp:post_id><wp:post_date><![CDATA[2024-02-03 09:00:00]]></wp:post_date><wp:post_status><![CDATA[publish]]></wp:post_status><wp:post_type><![CDATA[post]]></wp:post_type><wp:post_name><![CDATA[smoothie-bowl]]></wp:post_name></item>
 
-	<!-- Main Menu Items -->
-	<item>
-		<title>Home</title>
-		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
-		<wp:post_status><![CDATA[publish]]></wp:post_status>
-		<wp:menu_item_url><![CDATA[http://liza.local/]]></wp:menu_item_url>
-		<category domain="nav_menu" nicename="main-menu"><![CDATA[Main Menu]]></category>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
-			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-			<wp:meta_value><![CDATA[0]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
+	<item><title>The Best Homemade Bread — No Kneading Required</title><link>http://liza.local/no-knead-bread/</link><pubDate>Fri, 16 Feb 2024 09:00:00 +0000</pubDate><dc:creator><![CDATA[admin]]></dc:creator><category domain="category" nicename="food"><![CDATA[Food]]></category><content:encoded><![CDATA[<p>This recipe requires exactly five minutes of active work — the rest is just waiting. The result is a crusty, chewy loaf that rivals anything from a bakery.</p><h2>Ingredients</h2><ul><li>400g strong white bread flour</li><li>1/4 tsp instant yeast</li><li>1.5 tsp salt</li><li>300ml warm water</li></ul><h2>Method</h2><p>Mix everything until a rough dough forms. Cover and leave at room temperature for 12–18 hours. Shape, rest for another hour, then bake in a preheated Dutch oven at 230°C — 30 minutes covered, then 15 minutes uncovered.</p>]]></content:encoded><excerpt:encoded><![CDATA[This no-knead bread requires five minutes of active work. The result is a crusty, chewy loaf that rivals anything from a bakery.]]></excerpt:encoded><wp:post_id>403</wp:post_id><wp:post_date><![CDATA[2024-02-16 09:00:00]]></wp:post_date><wp:post_status><![CDATA[publish]]></wp:post_status><wp:post_type><![CDATA[post]]></wp:post_type><wp:post_name><![CDATA[no-knead-bread]]></wp:post_name></item>
 
-	<item>
-		<title>About</title>
-		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
-		<wp:post_status><![CDATA[publish]]></wp:post_status>
-		<wp:menu_item_url><![CDATA[http://liza.local/about/]]></wp:menu_item_url>
-		<category domain="nav_menu" nicename="main-menu"><![CDATA[Main Menu]]></category>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
-			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-			<wp:meta_value><![CDATA[0]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
+	<!-- FASHION POSTS -->
+	<item><title>How to Build a Capsule Wardrobe From Scratch</title><link>http://liza.local/capsule-wardrobe/</link><pubDate>Thu, 18 Jan 2024 09:00:00 +0000</pubDate><dc:creator><![CDATA[admin]]></dc:creator><category domain="category" nicename="fashion"><![CDATA[Fashion]]></category><content:encoded><![CDATA[<p>A capsule wardrobe is a curated collection of timeless, versatile pieces that all work together. I rebuilt my wardrobe from scratch two years ago and I've never looked back.</p><h2>Start With a Clean Slate</h2><p>Go through what you already own. Try everything on and ask honestly: does this fit well? Have I worn it in the last year? If no — donate or sell.</p><h2>The Foundation Pieces</h2><p>Build around white, cream, navy, grey and camel. These colours work together effortlessly. Start with well-fitted trousers, simple shirts, a quality blazer, a classic coat, and comfortable flats.</p><h2>The Rule of 30</h2><p>Before buying anything new, ask: will I wear this at least 30 times? If you can't say yes — it doesn't earn a place in your wardrobe.</p>]]></content:encoded><excerpt:encoded><![CDATA[A capsule wardrobe means fewer items but more use from every single one. I rebuilt mine from scratch and never looked back.]]></excerpt:encoded><wp:post_id>501</wp:post_id><wp:post_date><![CDATA[2024-01-18 09:00:00]]></wp:post_date><wp:post_status><![CDATA[publish]]></wp:post_status><wp:post_type><![CDATA[post]]></wp:post_type><wp:post_name><![CDATA[capsule-wardrobe]]></wp:post_name></item>
+
+	<item><title>Spring Colour Trends You'll Actually Want to Wear</title><link>http://liza.local/spring-colour-trends/</link><pubDate>Mon, 05 Feb 2024 09:00:00 +0000</pubDate><dc:creator><![CDATA[admin]]></dc:creator><category domain="category" nicename="fashion"><![CDATA[Fashion]]></category><content:encoded><![CDATA[<p>Every season I filter the trend colours down to the ones that are actually wearable in everyday life. Here are the spring shades I'm genuinely excited about.</p><h2>Butter Yellow</h2><p>Warm, soft and surprisingly versatile. A bag or scarf in butter yellow lifts any neutral outfit instantly.</p><h2>Sage Green</h2><p>Sage pairs effortlessly with cream, white, camel and soft pink. A sage linen blazer is top of my wishlist this spring.</p><h2>Terracotta</h2><p>Rich, earthy and flattering on warm skin tones. Works brilliantly as a statement coat or unexpected pop of colour through shoes.</p>]]></content:encoded><excerpt:encoded><![CDATA[Every season I filter the trend colours down to the ones actually wearable in everyday life. Here are the spring shades I love.]]></excerpt:encoded><wp:post_id>502</wp:post_id><wp:post_date><![CDATA[2024-02-05 09:00:00]]></wp:post_date><wp:post_status><![CDATA[publish]]></wp:post_status><wp:post_type><![CDATA[post]]></wp:post_type><wp:post_name><![CDATA[spring-colour-trends]]></wp:post_name></item>
+
+	<item><title>The Best Sustainable Fashion Brands to Know Right Now</title><link>http://liza.local/sustainable-fashion/</link><pubDate>Thu, 22 Feb 2024 09:00:00 +0000</pubDate><dc:creator><![CDATA[admin]]></dc:creator><category domain="category" nicename="fashion"><![CDATA[Fashion]]></category><content:encoded><![CDATA[<p>Buying less and buying better is the most powerful thing we can do as consumers. Here are the labels I trust and return to.</p><h2>Everlane</h2><p>Radical transparency is their brand promise — they show you exactly what each item costs to make. Their cashmere and denim are exceptional quality.</p><h2>Arket</h2><p>Beautiful, minimal, built to last. Their linen collection every spring is stunning.</p><h2>Veja</h2><p>If you only invest in one sustainable brand, make it Veja for your shoes. Ethically sourced materials, fair wages, no advertising budget.</p>]]></content:encoded><excerpt:encoded><![CDATA[Buying less and buying better is the most powerful thing we can do. Here are the sustainable fashion labels I trust and return to.]]></excerpt:encoded><wp:post_id>503</wp:post_id><wp:post_date><![CDATA[2024-02-22 09:00:00]]></wp:post_date><wp:post_status><![CDATA[publish]]></wp:post_status><wp:post_type><![CDATA[post]]></wp:post_type><wp:post_name><![CDATA[sustainable-fashion]]></wp:post_name></item>
+
+	<!-- MAIN MENU ITEMS -->
+	<item><title>Home</title><wp:post_id>601</wp:post_id><wp:post_date><![CDATA[2024-01-01 00:00:00]]></wp:post_date><wp:post_status><![CDATA[publish]]></wp:post_status><wp:post_type><![CDATA[nav_menu_item]]></wp:post_type><wp:post_name><![CDATA[nav-home]]></wp:post_name><wp:menu_item_url><![CDATA[http://liza.local/]]></wp:menu_item_url><category domain="nav_menu" nicename="main-menu"><![CDATA[Main Menu]]></category><wp:postmeta><wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key><wp:meta_value><![CDATA[custom]]></wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key><wp:meta_value><![CDATA[0]]></wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key><![CDATA[_menu_item_position]]></wp:meta_key><wp:meta_value><![CDATA[1]]></wp:meta_value></wp:postmeta></item>
+
+	<item><title>Lifestyle</title><wp:post_id>602</wp:post_id><wp:post_date><![CDATA[2024-01-01 00:00:00]]></wp:post_date><wp:post_status><![CDATA[publish]]></wp:post_status><wp:post_type><![CDATA[nav_menu_item]]></wp:post_type><wp:post_name><![CDATA[nav-lifestyle]]></wp:post_name><wp:menu_item_url><![CDATA[http://liza.local/category/lifestyle/]]></wp:menu_item_url><category domain="nav_menu" nicename="main-menu"><![CDATA[Main Menu]]></category><wp:postmeta><wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key><wp:meta_value><![CDATA[taxonomy]]></wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key><wp:meta_value><![CDATA[category]]></wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key><wp:meta_value><![CDATA[1]]></wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key><wp:meta_value><![CDATA[0]]></wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key><![CDATA[_menu_item_position]]></wp:meta_key><wp:meta_value><![CDATA[2]]></wp:meta_value></wp:postmeta></item>
+
+	<item><title>Wellness</title><wp:post_id>603</wp:post_id><wp:post_date><![CDATA[2024-01-01 00:00:00]]></wp:post_date><wp:post_status><![CDATA[publish]]></wp:post_status><wp:post_type><![CDATA[nav_menu_item]]></wp:post_type><wp:post_name><![CDATA[nav-wellness]]></wp:post_name><wp:menu_item_url><![CDATA[http://liza.local/category/wellness/]]></wp:menu_item_url><category domain="nav_menu" nicename="main-menu"><![CDATA[Main Menu]]></category><wp:postmeta><wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key><wp:meta_value><![CDATA[taxonomy]]></wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key><wp:meta_value><![CDATA[category]]></wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key><wp:meta_value><![CDATA[5]]></wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key><wp:meta_value><![CDATA[602]]></wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key><![CDATA[_menu_item_position]]></wp:meta_key><wp:meta_value><![CDATA[3]]></wp:meta_value></wp:postmeta></item>
+
+	<item><title>Home Decor</title><wp:post_id>604</wp:post_id><wp:post_date><![CDATA[2024-01-01 00:00:00]]></wp:post_date><wp:post_status><![CDATA[publish]]></wp:post_status><wp:post_type><![CDATA[nav_menu_item]]></wp:post_type><wp:post_name><![CDATA[nav-home-decor]]></wp:post_name><wp:menu_item_url><![CDATA[http://liza.local/category/home-decor/]]></wp:menu_item_url><category domain="nav_menu" nicename="main-menu"><![CDATA[Main Menu]]></category><wp:postmeta><wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key><wp:meta_value><![CDATA[taxonomy]]></wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key><wp:meta_value><![CDATA[category]]></wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key><wp:meta_value><![CDATA[6]]></wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key><wp:meta_value><![CDATA[602]]></wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key><![CDATA[_menu_item_position]]></wp:meta_key><wp:meta_value><![CDATA[4]]></wp:meta_value></wp:postmeta></item>
+
+	<item><title>Travel</title><wp:post_id>605</wp:post_id><wp:post_date><![CDATA[2024-01-01 00:00:00]]></wp:post_date><wp:post_status><![CDATA[publish]]></wp:post_status><wp:post_type><![CDATA[nav_menu_item]]></wp:post_type><wp:post_name><![CDATA[nav-travel]]></wp:post_name><wp:menu_item_url><![CDATA[http://liza.local/category/travel/]]></wp:menu_item_url><category domain="nav_menu" nicename="main-menu"><![CDATA[Main Menu]]></category><wp:postmeta><wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key><wp:meta_value><![CDATA[taxonomy]]></wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key><wp:meta_value><![CDATA[category]]></wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key><wp:meta_value><![CDATA[2]]></wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key><wp:meta_value><![CDATA[0]]></wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key><![CDATA[_menu_item_position]]></wp:meta_key><wp:meta_value><![CDATA[5]]></wp:meta_value></wp:postmeta></item>
+
+	<item><title>Food</title><wp:post_id>606</wp:post_id><wp:post_date><![CDATA[2024-01-01 00:00:00]]></wp:post_date><wp:post_status><![CDATA[publish]]></wp:post_status><wp:post_type><![CDATA[nav_menu_item]]></wp:post_type><wp:post_name><![CDATA[nav-food]]></wp:post_name><wp:menu_item_url><![CDATA[http://liza.local/category/food/]]></wp:menu_item_url><category domain="nav_menu" nicename="main-menu"><![CDATA[Main Menu]]></category><wp:postmeta><wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key><wp:meta_value><![CDATA[taxonomy]]></wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key><wp:meta_value><![CDATA[category]]></wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key><wp:meta_value><![CDATA[3]]></wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key><wp:meta_value><![CDATA[0]]></wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key><![CDATA[_menu_item_position]]></wp:meta_key><wp:meta_value><![CDATA[6]]></wp:meta_value></wp:postmeta></item>
+
+	<item><title>Fashion</title><wp:post_id>607</wp:post_id><wp:post_date><![CDATA[2024-01-01 00:00:00]]></wp:post_date><wp:post_status><![CDATA[publish]]></wp:post_status><wp:post_type><![CDATA[nav_menu_item]]></wp:post_type><wp:post_name><![CDATA[nav-fashion]]></wp:post_name><wp:menu_item_url><![CDATA[http://liza.local/category/fashion/]]></wp:menu_item_url><category domain="nav_menu" nicename="main-menu"><![CDATA[Main Menu]]></category><wp:postmeta><wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key><wp:meta_value><![CDATA[taxonomy]]></wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key><wp:meta_value><![CDATA[category]]></wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key><wp:meta_value><![CDATA[4]]></wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key><wp:meta_value><![CDATA[0]]></wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key><![CDATA[_menu_item_position]]></wp:meta_key><wp:meta_value><![CDATA[7]]></wp:meta_value></wp:postmeta></item>
+
+	<item><title>About</title><wp:post_id>608</wp:post_id><wp:post_date><![CDATA[2024-01-01 00:00:00]]></wp:post_date><wp:post_status><![CDATA[publish]]></wp:post_status><wp:post_type><![CDATA[nav_menu_item]]></wp:post_type><wp:post_name><![CDATA[nav-about]]></wp:post_name><wp:menu_item_url><![CDATA[http://liza.local/about/]]></wp:menu_item_url><category domain="nav_menu" nicename="main-menu"><![CDATA[Main Menu]]></category><wp:postmeta><wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key><wp:meta_value><![CDATA[custom]]></wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key><wp:meta_value><![CDATA[0]]></wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key><![CDATA[_menu_item_position]]></wp:meta_key><wp:meta_value><![CDATA[8]]></wp:meta_value></wp:postmeta></item>
+
+	<item><title>Contact</title><wp:post_id>609</wp:post_id><wp:post_date><![CDATA[2024-01-01 00:00:00]]></wp:post_date><wp:post_status><![CDATA[publish]]></wp:post_status><wp:post_type><![CDATA[nav_menu_item]]></wp:post_type><wp:post_name><![CDATA[nav-contact]]></wp:post_name><wp:menu_item_url><![CDATA[http://liza.local/contact/]]></wp:menu_item_url><category domain="nav_menu" nicename="main-menu"><![CDATA[Main Menu]]></category><wp:postmeta><wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key><wp:meta_value><![CDATA[custom]]></wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key><wp:meta_value><![CDATA[0]]></wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key><![CDATA[_menu_item_position]]></wp:meta_key><wp:meta_value><![CDATA[9]]></wp:meta_value></wp:postmeta></item>
+
+	<!-- TOP MENU ITEMS -->
+	<item><title>About</title><wp:post_id>701</wp:post_id><wp:post_date><![CDATA[2024-01-01 00:00:00]]></wp:post_date><wp:post_status><![CDATA[publish]]></wp:post_status><wp:post_type><![CDATA[nav_menu_item]]></wp:post_type><wp:post_name><![CDATA[top-nav-about]]></wp:post_name><wp:menu_item_url><![CDATA[http://liza.local/about/]]></wp:menu_item_url><category domain="nav_menu" nicename="top-menu"><![CDATA[Top Menu]]></category><wp:postmeta><wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key><wp:meta_value><![CDATA[custom]]></wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key><wp:meta_value><![CDATA[0]]></wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key><![CDATA[_menu_item_position]]></wp:meta_key><wp:meta_value><![CDATA[1]]></wp:meta_value></wp:postmeta></item>
+
+	<item><title>Contact</title><wp:post_id>702</wp:post_id><wp:post_date><![CDATA[2024-01-01 00:00:00]]></wp:post_date><wp:post_status><![CDATA[publish]]></wp:post_status><wp:post_type><![CDATA[nav_menu_item]]></wp:post_type><wp:post_name><![CDATA[top-nav-contact]]></wp:post_name><wp:menu_item_url><![CDATA[http://liza.local/contact/]]></wp:menu_item_url><category domain="nav_menu" nicename="top-menu"><![CDATA[Top Menu]]></category><wp:postmeta><wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key><wp:meta_value><![CDATA[custom]]></wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key><wp:meta_value><![CDATA[0]]></wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key><![CDATA[_menu_item_position]]></wp:meta_key><wp:meta_value><![CDATA[2]]></wp:meta_value></wp:postmeta></item>
 
 </channel>
 </rss>
